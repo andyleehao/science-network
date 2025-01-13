@@ -1,2 +1,6 @@
 # science-network
-Science Network Config
+Science Network
+Different App config
+
+Shadowrocket
+QuantumultX
