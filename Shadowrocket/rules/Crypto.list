@@ -78,6 +78,7 @@ DOMAIN-SUFFIX,bscscan.com
 # Bybit
 DOMAIN,api.ffbbbdc6d3c353211fe2ba39c9f744cd.com
 DOMAIN,sc-abtest.ffe390afd658c19dcbf707e0597b846d.de
+DOMAIN,monitor-frontend-collector.a.bybit-aws.com
 DOMAIN,bybit-exchange.github.io
 DOMAIN,inapps.appsflyer.com
 DOMAIN-SUFFIX,bybit.biz
@@ -92,6 +93,7 @@ DOMAIN-SUFFIX,byapps.net
 DOMAIN-SUFFIX,byd3c3.com
 DOMAIN-SUFFIX,bybdc6.com
 DOMAIN-SUFFIX,appsflyer.com
+DOMAIN-SUFFIX,bybit.com
 
 # Huobi
 DOMAIN-SUFFIX,hbabit.com

@@ -7,6 +7,8 @@ DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,ios.chat.openai.com
 DOMAIN,static.cloudflareinsights.com
 DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,api.statsig.com
 DOMAIN-SUFFIX,auth0.com
