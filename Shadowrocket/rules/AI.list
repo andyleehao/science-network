@@ -134,3 +134,7 @@ DOMAIN-SUFFIX,poecdn.net
 # > xAI/Grok
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
+
+# > Dia Browser
+DOMAIN-SUFFIX,diabrowser.com
+DOMAIN-KEYWORD,diabrowser
