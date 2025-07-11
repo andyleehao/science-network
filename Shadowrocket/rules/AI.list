@@ -138,3 +138,6 @@ DOMAIN-SUFFIX,grok.com
 # > Dia Browser
 DOMAIN-SUFFIX,diabrowser.com
 DOMAIN-KEYWORD,diabrowser
+
+# > You.com
+DOMAIN-SUFFIX,you.com
