@@ -152,6 +152,7 @@ DOMAIN-SUFFIX,grok.com
 
 # > Dia Browser
 DOMAIN-SUFFIX,diabrowser.com
+DOMAIN-SUFFIX,diabrowser.engineering
 DOMAIN-KEYWORD,diabrowser
 
 # > You.com
