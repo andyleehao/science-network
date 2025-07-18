@@ -35,6 +35,8 @@ DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,kiro.dev
 DOMAIN-KEYWORD,kiro
 DOMAIN-KEYWORD,datadoghq
+DOMAIN-KEYWORD,codewhisperer
+DOMAIN-SUFFIX,amazonaws.com
 
 # > AugmentCode
 DOMAIN-SUFFIX,augmentcode.com
