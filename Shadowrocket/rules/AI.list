@@ -159,3 +159,6 @@ DOMAIN-KEYWORD,diabrowser
 
 # > You.com
 DOMAIN-SUFFIX,you.com
+
+# > Warp
+DOMAIN-SUFFIX,warp.dev
