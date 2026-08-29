@@ -10,10 +10,7 @@ DOMAIN,apple-relay.apple.com
 DOMAIN,apple-relay.cloudflare.com
 DOMAIN,apple-relay.fastly-edge.com
 DOMAIN,cp4.cloudflare.com
-DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,guzzoni.apple.com
-DOMAIN-SUFFIX,apps.mzstatic.com
-DOMAIN-SUFFIX,smoot.apple.com
 
 # > AugmentCode
 DOMAIN-SUFFIX,augmentcode.com
@@ -33,11 +30,8 @@ DOMAIN-KEYWORD,diabrowser
 DOMAIN-SUFFIX,dify.ai
 
 # > GitHub Copilot
+DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubuser
-DOMAIN-SUFFIX,githubusercontent.com
 
 # > Google AI
 DOMAIN,ai.google.dev
@@ -64,7 +58,6 @@ DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
 DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,google.ai
-DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
@@ -78,15 +71,12 @@ DOMAIN-KEYWORD,notebooklm.google
 DOMAIN-SUFFIX,grazie.ai
 
 # > Kiro
-DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,kiro.dev
 DOMAIN-KEYWORD,codewhisperer
-DOMAIN-KEYWORD,datadoghq
 DOMAIN-KEYWORD,kiro
 
 # > Meta
 DOMAIN-SUFFIX,meta.ai
-DOMAIN-SUFFIX,meta.com
 
 # > Microsoft Copilot
 DOMAIN,api.msn.com
