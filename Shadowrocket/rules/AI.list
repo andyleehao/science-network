@@ -1,9 +1,44 @@
+# > AI Infrastructure & Services
+DOMAIN,api.statsig.com
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,static.cloudflareinsights.com
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,arkoselabs.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,identrust.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,statsig.com
+DOMAIN-SUFFIX,statsigapi.net
+DOMAIN-SUFFIX,stripe.com
+
 # > Anthropic
+DOMAIN,anthropic.auth0.com
+DOMAIN,anthropic.com.cdn.cloudflare.net
+DOMAIN,anthropic-com.ghost.io
+DOMAIN,browser-intake-us5-datadoghq.com
 DOMAIN,cdn.usefathom.com
+DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,anthropicusercontent.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,clau.de
+DOMAIN-SUFFIX,claudemcpclient.com
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claudiodata.com
+DOMAIN-SUFFIX,sift.com
+DOMAIN-SUFFIX,statsigapi.net
+IP-CIDR,160.79.104.0/21,no-resolve
+IP-CIDR6,2607:6bc0::/32,no-resolve
+IP-ASN,399358,no-resolve
 
 # > Apple Intelligence
 DOMAIN,apple-relay.apple.com
@@ -20,6 +55,7 @@ DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursorvm.com
 
 # > Dia Browser
 DOMAIN-SUFFIX,diabrowser.com
@@ -67,6 +103,11 @@ DOMAIN-KEYWORD,generativelanguage
 DOMAIN-KEYWORD,labs.google
 DOMAIN-KEYWORD,notebooklm.google
 
+# > Hugging Face
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,hf.space
+DOMAIN-SUFFIX,huggingface.co
+
 # > JetBrains AI
 DOMAIN-SUFFIX,grazie.ai
 
@@ -75,75 +116,79 @@ DOMAIN-SUFFIX,kiro.dev
 DOMAIN-KEYWORD,codewhisperer
 DOMAIN-KEYWORD,kiro
 
-# > Meta
+# > Manus
+DOMAIN-SUFFIX,manus.im
+DOMAIN-SUFFIX,manuscdn.com
+
+# > Meta / Llama
+DOMAIN-SUFFIX,atmeta.com
+DOMAIN-SUFFIX,llama.com
+DOMAIN-SUFFIX,llamameta.net
 DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.com
 
 # > Microsoft Copilot
 DOMAIN,api.msn.com
-DOMAIN,api.statsig.com
 DOMAIN,assets.msn.com
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,copilot.microsoft.com
 DOMAIN,gateway.bingviz.microsoft.net
 DOMAIN,gateway.bingviz.microsoftapp.net
 DOMAIN,in.appcenter.ms
 DOMAIN,location.microsoft.com
 DOMAIN,odc.officeapps.live.com
-DOMAIN,openai-api.arkoselabs.com
-DOMAIN,openaicomproductionae4b.blob.core.windows.net
-DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,r.bing.com
 DOMAIN,self.events.data.microsoft.com
 DOMAIN,services.bingapis.com
-DOMAIN,static.cloudflareinsights.com
 DOMAIN,sydney.bing.com
 DOMAIN,www.bing.com
-DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,api.microsoftapp.net
-DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
-DOMAIN-SUFFIX,challenges.cloudflare.com
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
-DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,edgeservices.bing.com
-DOMAIN-SUFFIX,events.statsigapi.net
-DOMAIN-SUFFIX,featuregates.org
-DOMAIN-SUFFIX,host.livekit.cloud
-DOMAIN-SUFFIX,identrust.com
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-DOMAIN-SUFFIX,launchdarkly.com
-DOMAIN-SUFFIX,observeit.net
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-DOMAIN-SUFFIX,openaicom.imgix.net
-DOMAIN-SUFFIX,turn.livekit.cloud
-DOMAIN-KEYWORD,openaicom-api
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
-IP-ASN,14061,no-resolve
-IP-ASN,20473,no-resolve
 
 # > Midjourney
 DOMAIN-SUFFIX,midjourney.com
 
+# > Mistral AI
+DOMAIN-SUFFIX,mistral.ai
+
+# > Muse AI
+DOMAIN,connect.facebook.net
+DOMAIN,meta-ohttp-config-prod.fastly-edge.com
+DOMAIN,meta-ohttp-relay-prod.fastly-edge.com
+DOMAIN,production.museai.com
+DOMAIN-SUFFIX,muse.ai
+
 # > OpenAI/ChatGPT
 DOMAIN,api-iam.intercom.io
+DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,o33249.ingest.sentry.io
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openai-api.arkoselabs.com
 DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,azureedge.net
 DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,imgix.net
 DOMAIN-SUFFIX,livekit.cloud
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,sora.com
+DOMAIN-SUFFIX,turn.livekit.cloud
 DOMAIN-KEYWORD,openaiapi
 DOMAIN-KEYWORD,openaicom
+DOMAIN-KEYWORD,openaicom-api
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
+IP-ASN,14061,no-resolve
+IP-ASN,20473,no-resolve
 
 # > Perplexity
 DOMAIN,pplx-res.cloudinary.com
